@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <title>Inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="headernav">
+      <nav>
+        <div class="logo">
+          <img src="montagne.png" alt="logo imag" class="mountain-img">
+          <a href="index.html" class="logo-name"> Atlas Dev </a>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="intervenants.html">Intervenants</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="form">
+        <h1>Inscrivez-vous</h1>
+        <form>
+          <label for="nom">Nome complet</label>
+          <input type="text" id="nom" name="nom" required minlength="3" >
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required >
+
+          <label for="telephone">Téléphone</label>
+          <input
+            type="tel"
+            id="telephone"
+            name="telephone"
+            required
+            pattern="^(\+212|0)[5-7][0-9]{8}$"
+            placeholder="+2126XXXXXXXX"
+          >
+
+          <label for="profil">Profil</label>
+          <select id="profil" name="profil" required>
+            <option value="">-- Choisissez votre profil --</option>
+            <option value="etudiant">Étudiant·e</option>
+            <option value="developpeur">Développeur·se</option>
+            <option value="autre">Autre</option>
+          </select>
+
+          <p>Ateliers souhaités</p>
+
+          <label>
+            <input type="checkbox" name="ateliers" value="web" required >
+            Développement Web
+          </label>
+
+          <label>
+            <input type="checkbox" name="ateliers" value="ia" >
+            Intelligence Artificielle
+          </label>
+
+          <label>
+            <input type="checkbox" name="ateliers" value="cybersecurite" >
+            Cybersécurité
+          </label>
+
+          <label>
+            <input type="checkbox" name="ateliers" value="javascript" >
+            JavaScript
+          </label>
+
+          <label>
+            <input type="checkbox" name="ateliers" value="entrepreneuriat" >
+            Entrepreneuriat
+          </label>
+
+          <p>Journée(s) de participation</p>
+          <label>
+            <input type="radio" name="journee" value="jour2" required >
+            Jour 1
+          </label>
+          <label>
+            <input type="radio" name="journee" value="jour2" >
+            Jour 2
+          </label>
+          <label>
+            <input type="radio" name="journee" value="les-deux" >
+            les deux
+          </label>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Saisissez votre message..."
+          ></textarea>
+
+          <label>
+            <input type="checkbox" name="consentement" required >
+            J'accepte les conditions d'inscription.
+          </label>
+          <button class="btn-inscription" type="submit">S'inscrire</button>
+        </form>
+      </section>
+    </main>
+      <footer>
+      <p class="copy-right">&copy; 2026 - Atlas Dev</p>
+      <p class="programer">Powred By : Mekkaoui Mohamed</p>
+    </footer>
+  </body>
 </html>
