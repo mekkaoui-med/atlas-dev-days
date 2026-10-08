@@ -248,7 +248,7 @@ h2 {
   text-align: center;
   
 }
-.programe-item > dev {
+.programe-item > div {
   flex: 1;
   min-width: 0;
 }
@@ -262,7 +262,7 @@ h2 {
     line-height: 1.6;
     
 }
-span{
-    font-size: 14px;
-    font-weight: bold;
+.programe-item span {
+  font-size: 14px;
+  font-weight: bold;
 }
