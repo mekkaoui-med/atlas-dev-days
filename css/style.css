@@ -1,6 +1,6 @@
 :root {
-  --black: #000000;
-  --white: #ffffff;
+  --black: #0B1215;
+  --white: #F2F6FC;
 }
 * {
   margin: 0;
@@ -160,4 +160,41 @@ footer{
 }
 footer p{
     font-size: 14px;
+}
+@media(max-width : 768px){
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul{
+        gap: 15px;
+    }
+    .hero h1{
+        font-size: 36px;
+    }
+    .hero{
+        padding: 60px 20px 80px;
+    }
+    .stats-container{
+        gap: 30px;
+    }
+    .stat-number{
+        font-size: 30px;
+    }
+    .about{
+        padding: 60px 20px;
+    }
+    .speakers-container{
+        flex-direction: column;
+    }
+    .speaker-card{
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    footer{
+        flex-direction:column;
+        gap: 10px;
+        padding: 30px 20px;
+    }
 }
