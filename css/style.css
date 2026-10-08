@@ -242,6 +242,10 @@ h2 {
   padding-right: 20px;
   font-size: 15px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   
 }
 .programe-item > dev {
