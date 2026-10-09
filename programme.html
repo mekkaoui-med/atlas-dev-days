@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>programme</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/style.css" >
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">
-          <img src="montagne.png" alt="logo imag" class="mountain-img" >
+          <img
+            src="assets/icons/montagne.png"
+            alt="logo imag"
+            class="mountain-img"
+          />
           <a href="index.html" class="logo-name"> Atlas Dev </a>
         </div>
 
@@ -24,105 +27,128 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Notre Programme</h1>
-        <p>Découvrez le programme des deux journées d'Atlas Dev Days.</p>
+      <section class="programe-intro">
+        <h1 class="programe-title">Notre Programme</h1>
+        <p class="programe-description">
+          Découvrez le programme des deux journées d'Atlas Dev Days.
+        </p>
       </section>
 
-      <section>
+      <section class="programe-day">
         <h2>Jour 1 : Développement</h2>
         <p class="day-date">
           <time datetime="2026-10-15">Jeudi, Octobre 15, 2026</time>
         </p>
+        <div class="programe-items">
+          <article class="programe-item">
+            <time datetime="2026-10-15T08:00"> 08:00 - 09:00</time>
 
-        <article>
-          <time datetime="2026-10-15T08:00">Horaire : 08:00 - 09:00</time>
-          <div>
-            <h3>Café d'accueil et récupération des badges</h3>
-          </div>
-        </article>
+           
+            <div>
+                 <span>Accueil</span>
+              <h3>Café d'accueil et récupération des badges</h3>
+            </div>
+          </article>
 
-        <article>
-          <span>Talk 1</span><br>
-          <time datetime="2026-10-15T09:00">Horaire : 09:00 - 10:00</time>
-          <div>
-            <h3>Titre: Introduction au développement Web moderne</h3>
-            <p>Intervenant:Inas</p>
-            <p>Thème: Front-End</p>
-          </div>
-        </article>
+          <article class="programe-item">
+            <time datetime="2026-10-15T09:00"> 09:00 - 10:00</time>
+            
 
-        <article>
-          <span>Talk 2</span><br>
-          <time datetime="2026-10-15T10:00">Horaire : 10:00 - 11:00</time>
-          <div>
-            <h3>Titre: Construire des API performantes</h3>
-            <p>Intervenant: Rehal Massin</p>
-            <p>Thème: Back-End</p>
-          </div>
-        </article>
+            <div>
+                <span>Talk 1</span>
+              <h3>Titre: Introduction au développement Web moderne</h3>
+              <p>Intervenant:Inas</p>
+              <p>Thème: Front-End</p>
+            </div>
+          </article>
 
-        <article>
-          <span>Talk 3</span><br>
-          <time datetime="2026-10-15T11:00">Horaire : 11:00 - 12:00</time>
-          <div>
-            <h3>
-              Titre : Sécuriser son Backend : bonnes pratiques et protection des
-              API
-            </h3>
-            <p>Intervenant: Asmae Ismaili</p>
-            <p>Thème: Backend & Security</p>
-          </div>
-        </article>
-        <article>
-          <span>WorkShop 1</span><br>
-          <time datetime="2026-10-15T12:00">Horaire: 12:00 - 12:30</time>
-          <div>
-            <h3>Titre: Entrepreneuriat</h3>
-            <p>L'animateur:Mohamed Mohamadi</p>
-          </div>
-        </article>
+          <article class="programe-item">
+            <time datetime="2026-10-15T10:00"> 10:00 - 11:00</time>
+
+            
+            <div>
+                <span>Talk 2</span>
+              <h3>Titre: Construire des API performantes</h3>
+              <p>Intervenant: Rehal Massin</p>
+              <p>Thème: Back-End</p>
+            </div>
+          </article>
+
+          <article class="programe-item">
+            <time datetime="2026-10-15T11:00"> 11:00 - 12:00</time>
+
+            <div>
+                <span>Talk 3</span>
+              <h3>
+                Titre : Sécuriser son Backend : bonnes pratiques et protection
+                des API
+              </h3>
+              <p>Intervenant: Asmae Ismaili</p>
+              <p>Thème: Backend & Security</p>
+            </div>
+          </article>
+          <article class="programe-item">
+            <time datetime="2026-10-15T12:00"> 12:00 - 12:30</time>
+
+            
+            <div>
+                <span>WorkShop 1</span>
+              <h3>Titre: Entrepreneuriat</h3>
+              <p>L'animateur:Mohamed Mohamadi</p>
+            </div>
+          </article>
+        </div>
       </section>
-      <section>
+      <section class="programe-day">
         <h2>Jour 2: Évolution professionnelle</h2>
         <p class="day-date">
           <time datetime="2026-10-16">Vendredi, Octobre 15, 2026</time>
         </p>
-        <article>
-          <span>Talk 4</span><br>
-          <time datetime="2026-10-16T09:00">Horaire: 09:00 - 10:00</time>
-          <div>
-            <h3>Titre: React.js pour créer des interfaces modernes</h3>
-            <p>Intervenant: massin ouzahi</p>
-            <p>Thème: Front-End</p>
-          </div>
-        </article>
-        <article>
-          <span>Talk 5</span><br>
-          <time datetime="2026-10-16T10:00">Horaire: 10:00 - 11:00</time>
-          <div>
-            <h3>Titre: De développeur junior à professionnel</h3>
-            <p>Intervenant: khadija Youssef</p>
-            <p>Thème: Carrière</p>
-          </div>
-        </article>
-        <article>
-          <span>Talk 6</span><br>
-          <time datetime="2026-10-16T11:00">Horaire: 11:00 - 12:00</time>
-          <div>
-            <h3>Titre: L'intelligence artificielle pour les développeurs</h3>
-            <p>Intervenant:Souhayla Mekkaoui</p>
-            <p>Thème: IA</p>
-          </div>
-        </article>
-        <article>
-          <span>WorkShop 2</span><br>
-          <time datetime="2026-10-16T12:00">Horaire: 12:00 - 12:30</time>
-          <div>
-            <h3>Titre: Entrepreneuriat</h3>
-            <p>L'animateur:Mohamed Mohamadi</p>
-          </div>
-        </article>
+        <div class="programe-items">
+          <article class="programe-item">
+            <time datetime="2026-10-16T09:00"> 09:00 - 10:00</time>
+
+            
+            <div>
+                <span>Talk 4</span>
+              <h3>Titre: React.js pour créer des interfaces modernes</h3>
+              <p>Intervenant: massin ouzahi</p>
+              <p>Thème: Front-End</p>
+            </div>
+          </article>
+          <article class="programe-item">
+            <time datetime="2026-10-16T10:00"> 10:00 - 11:00</time>
+
+            
+            <div>
+                <span>Talk 5</span>
+              <h3>Titre: De développeur junior à professionnel</h3>
+              <p>Intervenant: khadija Youssef</p>
+              <p>Thème: Carrière</p>
+            </div>
+          </article>
+          <article class="programe-item">
+            <time datetime="2026-10-16T11:00"> 11:00 - 12:00</time>
+
+            
+            <div>
+                <span>Talk 6</span>
+              <h3>Titre: L'intelligence artificielle pour les développeurs</h3>
+              <p>Intervenant:Souhayla Mekkaoui</p>
+              <p>Thème: IA</p>
+            </div>
+          </article>
+          <article class="programe-item">
+            <time datetime="2026-10-16T12:00"> 12:00 - 12:30</time>
+
+           
+            <div>
+                 <span>WorkShop 2</span>
+              <h3>Titre: Entrepreneuriat</h3>
+              <p>L'animateur:Mohamed Mohamadi</p>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
     <footer>

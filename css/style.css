@@ -214,7 +214,7 @@ footer p {
   padding: 60px 60px;
   margin-bottom: 40px;
 }
-h2 {
+.programe-day h2 {
   font-size: 30px;
   font-family: "Courier New", Courier, monospace;
   margin-bottom: 20px;
@@ -265,4 +265,79 @@ h2 {
 .programe-item span {
   font-size: 14px;
   font-weight: bold;
+}
+/* inscription*/
+
+.form{
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid var(--black);
+}
+.form-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    margin-bottom:30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.form label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+}
+.form select{
+    width: 100%;
+    padding:12px ;
+    border: 1px solid var(--black);
+     background-color: var(--white);
+     margin-bottom: 8px;
+}
+.form form > p{
+    font-size: bold;
+    margin: 25px 0 15px;
+}
+.form label:has(input[type="checkbox"]),
+.form label:has(input[type="radio"]){
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.form textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--black);
+    font-family:  Arial, sans-serif;
+    resize: vertical;
+}
+.btn-inscription{
+    width: 100%;
+    padding: 12px;
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+      font-size: 16px;
+
+}
+.btn-inscription:hover{
+     background-color: var(--white);
+    color: var(--black);
+   
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form select,
+.form textarea {
+  margin-bottom: 15px;
 }
