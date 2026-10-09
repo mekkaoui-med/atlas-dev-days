@@ -341,3 +341,13 @@ footer p {
 .form textarea {
   margin-bottom: 15px;
 }
+/* Intervenants*/
+
+.intervenants-intro{
+    padding: 60px 50px;
+}
+.intervenants-title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-bottom: 1;
+}
