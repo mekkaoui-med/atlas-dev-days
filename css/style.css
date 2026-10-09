@@ -160,43 +160,7 @@ footer {
 footer p {
   font-size: 14px;
 }
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 20px;
-  }
-  nav ul {
-    gap: 15px;
-  }
-  .hero h1 {
-    font-size: 36px;
-  }
-  .hero {
-    padding: 60px 20px 80px;
-  }
-  .stats-container {
-    gap: 30px;
-  }
-  .stat-number {
-    font-size: 30px;
-  }
-  .about {
-    padding: 60px 20px;
-  }
-  .speakers-container {
-    flex-direction: column;
-  }
-  .speaker-card {
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto;
-  }
-  footer {
-    flex-direction: column;
-    gap: 10px;
-    padding: 30px 20px;
-  }
-}
+
 /*programme*/
 .programe-intro {
   padding: 60px 50px;
@@ -350,4 +314,84 @@ footer p {
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
     margin-bottom: 15px;
+}
+.intervenants-description{
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+}
+.intervenants-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 50px 60px;
+}
+.intervenant-card{
+    width: 320;
+    padding: 25px;
+    text-align: center;
+}
+.intervenant-card h2{
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.intervenant-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.intervenant-card a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: 1px solid var(--black);
+    justify-content: center;
+    color: var(--black);
+}
+.intervenant-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav ul {
+    gap: 15px;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero {
+    padding: 60px 20px 80px;
+  }
+  .stats-container {
+    gap: 30px;
+  }
+  .stat-number {
+    font-size: 30px;
+  }
+  .about {
+    padding: 60px 20px;
+  }
+  .speakers-container {
+    flex-direction: column;
+  }
+  .speaker-card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 20px;
+  }
 }
