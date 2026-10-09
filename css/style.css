@@ -134,6 +134,7 @@ nav a:hover {
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto 40px;
+  
 }
 .speaker-card {
   border: 1px solid var(--black);
@@ -359,6 +360,7 @@ footer p {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
+    /*index*/
   nav {
     flex-direction: column;
     gap: 20px;
@@ -394,4 +396,45 @@ footer p {
     gap: 10px;
     padding: 30px 20px;
   }
+  /*programme */
+  header{
+    padding: 20px;
+  }
+  .programe-intro {
+    padding: 40px 20px;
+  }
+  .programe-title {
+  font-size: 30px;
+  }
+   .programe-description {
+    font-size: 16px;
+  }
+  .programe-day{
+    padding: 40px 20px;
+  }
+  .programe-day h2{
+    font-size: 24px;
+  }
+  .day-date{
+    font-size: 24px;
+  }
+  .programe-item{
+    gap: 15px;
+    padding: 25px 0;
+  }
+  .programe-item > time{
+    flex: 0 0 150px;
+    padding-right: 13px;
+    font-size: 12px;
+  }
+  .programe-item h3{
+    font-size: 17px;
+  }
+  .programe-item p{
+    font-size: 13px;
+  }
+  .programe-item span{
+    font-size: 11px;
+  }
+
 }
