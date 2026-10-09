@@ -134,7 +134,6 @@ nav a:hover {
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto 40px;
-  
 }
 .speaker-card {
   border: 1px solid var(--black);
@@ -211,21 +210,19 @@ footer p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  
 }
 .programe-item > div {
   flex: 1;
   min-width: 0;
 }
-.programe-item h3{
-    font-size: 20px;
-    margin: 10px 0;
+.programe-item h3 {
+  font-size: 20px;
+  margin: 10px 0;
 }
-.programe-item p{
-    font-size: 14px;
-    margin: 5px 0;
-    line-height: 1.6;
-    
+.programe-item p {
+  font-size: 14px;
+  margin: 5px 0;
+  line-height: 1.6;
 }
 .programe-item span {
   font-size: 14px;
@@ -233,71 +230,69 @@ footer p {
 }
 /* inscription*/
 
-.form{
-    max-width: 700px;
-    margin: 60px auto;
-    padding: 40px;
-    border: 1px solid var(--black);
+.form {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  border: 1px solid var(--black);
 }
-.form-title{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 36px;
-    margin-bottom:30px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.form-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-.form label{
-    display: block;
-    margin-bottom: 8px;
-    font-size: 17px;
+.form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 17px;
 }
 .form input[type="text"],
 .form input[type="email"],
-.form input[type="tel"]{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid var(--black);
-    background-color: var(--white);
+.form input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--black);
+  background-color: var(--white);
 }
-.form select{
-    width: 100%;
-    padding:12px ;
-    border: 1px solid var(--black);
-     background-color: var(--white);
-     margin-bottom: 8px;
+.form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  margin-bottom: 8px;
 }
-.form form > p{
-    font-size: bold;
-    margin: 25px 0 15px;
+.form form > p {
+  font-size: bold;
+  margin: 25px 0 15px;
 }
 .form label:has(input[type="checkbox"]),
-.form label:has(input[type="radio"]){
-    display: flex;
-    align-items: center;
-    gap: 6px;
+.form label:has(input[type="radio"]) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
-.form textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid var(--black);
-    font-family:  Arial, sans-serif;
-    resize: vertical;
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--black);
+  font-family: Arial, sans-serif;
+  resize: vertical;
 }
-.btn-inscription{
-    width: 100%;
-    padding: 12px;
-    background-color: var(--black);
-    color: var(--white);
-    cursor: pointer;
-      font-size: 16px;
-
+.btn-inscription {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 16px;
 }
-.btn-inscription:hover{
-     background-color: var(--white);
-    color: var(--black);
-   
+.btn-inscription:hover {
+  background-color: var(--white);
+  color: var(--black);
 }
 .form input[type="text"],
 .form input[type="email"],
@@ -308,49 +303,49 @@ footer p {
 }
 /* Intervenants*/
 
-.intervenants-intro{
-    padding: 60px 50px;
+.intervenants-intro {
+  padding: 60px 50px;
 }
-.intervenants-title{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin-bottom: 15px;
+.intervenants-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
-.intervenants-description{
-    font-size: 20px;
-    line-height: 1.6;
-    max-width: 800px;
+.intervenants-description {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 800px;
 }
-.intervenants-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    padding: 40px 50px 60px;
+.intervenants-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 50px 60px;
 }
-.intervenant-card{
-    width: 320;
-    padding: 25px;
-    text-align: center;
+.intervenant-card {
+  width: 320;
+  padding: 25px;
+  text-align: center;
 }
-.intervenant-card h2{
-    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
-    font-size: 22px;
-    margin-bottom: 10px;
+.intervenant-card h2 {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 .intervenant-card p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
-.intervenant-card a{
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    border: 1px solid var(--black);
-    justify-content: center;
-    color: var(--black);
+.intervenant-card a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: 1px solid var(--black);
+  justify-content: center;
+  color: var(--black);
 }
 .intervenant-card img {
   width: 150px;
@@ -360,7 +355,7 @@ footer p {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-    /*index*/
+  /*index*/
   nav {
     flex-direction: column;
     gap: 20px;
@@ -397,44 +392,71 @@ footer p {
     padding: 30px 20px;
   }
   /*programme */
-  header{
+  header {
     padding: 20px;
   }
   .programe-intro {
     padding: 40px 20px;
   }
   .programe-title {
-  font-size: 30px;
+    font-size: 30px;
   }
-   .programe-description {
+  .programe-description {
     font-size: 16px;
   }
-  .programe-day{
+  .programe-day {
     padding: 40px 20px;
   }
-  .programe-day h2{
+  .programe-day h2 {
     font-size: 24px;
   }
-  .day-date{
+  .day-date {
     font-size: 24px;
   }
-  .programe-item{
+  .programe-item {
     gap: 15px;
     padding: 25px 0;
   }
-  .programe-item > time{
+  .programe-item > time {
     flex: 0 0 150px;
     padding-right: 13px;
     font-size: 12px;
   }
-  .programe-item h3{
+  .programe-item h3 {
     font-size: 17px;
   }
-  .programe-item p{
+  .programe-item p {
     font-size: 13px;
   }
-  .programe-item span{
+  .programe-item span {
     font-size: 11px;
   }
+  /* inscription*/
 
+  .form {
+    border: none;
+    margin: 30px 20px;
+    padding: 20px 20px;
+  }
+  .form-title {
+    font-size: 28px;
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"],
+  .form select,
+  .form textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form label:has(input[type="checkbox"]),
+  .form label:has(input[type="radio"]) {
+    gap: 8px;
+  }
+
+  .btn-inscription {
+    width: 100%;
+  }
+  /*intervenants*/
+  
 }
