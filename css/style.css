@@ -458,5 +458,21 @@ footer p {
     width: 100%;
   }
   /*intervenants*/
-  
+  .intervenants-intro{
+    padding: 40px 20px;
+  }
+  .intervenants-title{
+    font-size: 32px;
+  }
+  .intervenants-description{
+    font-size: 15px;
+  }
+  .intervenants-container{
+    padding: 20px;
+    gap: 20px;
+  }
+  .intervenant-card{
+    width: 100%;
+    max-width: 320px;
+  }
 }
