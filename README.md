@@ -23,16 +23,18 @@ The website provides visitors with information about the event, its programme, i
 ## Project Structure
 
 ```text
-event-site/
-├── index.html
-├── programme.html
-├── intervenants.html
-├── inscription.html
-├── css/
+.
+├── assets
+│   ├── icons
+│   │   └── montagne.png
+│   └── images
+├── css
 │   └── style.css
-└── assets/
-    └── icons/
-        └── montagne.png
+├── index.html
+├── inscription.html
+├── intervenants.html
+├── programme.html
+└── README.md
 ```
 
 ## Features
