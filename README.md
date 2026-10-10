@@ -68,4 +68,4 @@ Mohamed Mekkaoui
 
 ## Project Status
 
-In development.
+Completed.
