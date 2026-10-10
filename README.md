@@ -59,6 +59,9 @@ You can also use the **Live Server** extension in Visual Studio Code to preview 
 
 The website is designed for desktop and mobile screens, with a CSS media query at `768px` to adapt the layout to smaller devices.
 
+## project screenshots 
+![Atlas Dev Days 2026 screenshots](https://github.com/mekkaoui-med/atlas-dev-days/blob/17458e04ba016637b49e6dec2f30448641df6f0f/atlas_dev_days_all_screens.png)
+
 ## Author
 
 Mohamed Mekkaoui
